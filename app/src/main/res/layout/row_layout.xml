@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tx_author"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="Ivan"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tx_title"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/tx_author"
+        android:gravity="center"
+        android:text="Ivan"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/tx_lines"
+        android:layout_toRightOf="@+id/tx_title"
+        android:text="Ivan"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+</RelativeLayout>
